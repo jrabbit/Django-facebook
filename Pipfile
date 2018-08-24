@@ -7,11 +7,15 @@ name = "pypi"
 Unidecode = "*"
 
 [dev-packages]
-pytest = "==3.5.0"
 "e1839a8" = {path = ".", editable = true}
 pillow = "*"
 pycodestyle = "*"
 mock = "*"
+black = "*"
+fabric = "<2"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
