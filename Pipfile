@@ -13,6 +13,7 @@ pycodestyle = "*"
 mock = "*"
 black = "*"
 fabric = "<2"
+sphinx = "*"
 
 [requires]
 python_version = "3.6"
